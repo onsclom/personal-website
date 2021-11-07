@@ -11,10 +11,12 @@
   }
   setInterval(updateAge, 16);
 
+  // if has localStorage, then use that
   if (localStorage.getItem("darkPreferred") != null) {
     if (localStorage.getItem("darkPreferred") == "true") {
       dark = true;
     }
+  // otherwise use prefers-color-scheme (the OS setting)
   } else if (
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -27,6 +29,7 @@
   }
 
   function toggleDark() {
+    //Adding transition class here so page does not transition on page load
     window.document.body.classList.add("transitionColorScheme");
     window.document.body.classList.toggle("dark-theme");
     dark = window.document.body.classList.contains("dark-theme");
@@ -154,7 +157,7 @@
         <a href="https://onsclom.github.io/spurts/">Spurts</a>
       </h3>
       <p>
-        An anonymous message board. Backend built using Firebase, and frontend using vanilla JavaScript, HTML, and CSS.
+        An anonymous message board. Backend built using Firebase. Frontend built using vanilla JavaScript, HTML, and CSS.
       </p>
     </div>
   
@@ -169,7 +172,7 @@
     </div>
   </div>
 
-  <p>Website built by me using Svelte. View the messy code <a href="https://github.com/onsclom/personal-website">here</a>.</p>
+  <p>Website built by me. View the code <a href="https://github.com/onsclom/personal-website">here</a>.</p>
 </main>
 
 <style>
@@ -218,12 +221,6 @@
     text-align: right;
     margin-top: 1rem;
   }
-
-  h2 {
-    /* -webkit-text-stroke: .5px var(--main-bg-color); */
-    /* text-shadow: 4px 4px var(--light-shadow); */
-  }
-
   .project h3 {
     margin-bottom: 0;
   }
