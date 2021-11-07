@@ -226,7 +226,7 @@
   }
   main {
     transition: inherit;
-    max-width: 40rem;
+    max-width: 44rem;
     box-sizing: border-box;
     padding: 0 min(2%,2rem);
     /* min-height: 100%; */
