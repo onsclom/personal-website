@@ -115,59 +115,61 @@
     {"}"}
   </div>
 
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>
-      <a href="https://cegexe.itch.io/holymatrixmony">Holy Matri(x)mony</a>
-    </h3>
-    <p>
-      A puzzle game made in 48 hours which ranked as a finalist in the GMTK 2021
-      Game Jam. Made with Godot and GDScript.
-    </p>
+  <div>
+    <h2>Projects</h2>
+  
+    <div class="project">
+      <h3>
+        <a href="https://cegexe.itch.io/holymatrixmony">Holy Matri(x)mony</a>
+      </h3>
+      <p>
+        A puzzle game made in 48 hours which ranked as a finalist in the GMTK 2021
+        Game Jam. Made with Godot and GDScript.
+      </p>
+    </div>
+  
+    <div class="project">
+      <h3>
+        <a href="https://onsclom.github.io/blunder-chess/">Blunder Chess</a>
+      </h3>
+      <p>
+        Chess puzzles where you have to find the worst possible move. Puzzles
+        generated with Python. Front end made using vanilla JS, HTML, and CSS.
+      </p>
+    </div>
+  
+    <div class="project">
+      <h3>
+        <a href="https://projects-onsclom.vercel.app/">Svelte Projects</a>
+      </h3>
+      <p>
+        A collection of projects I made to learn Svelte. Includes a quote machine,
+        markdown previewer, drum machine, calculator, 25+5 timer, and a lifespan
+        calculator.
+      </p>
+    </div>
+  
+    <div class="project">
+      <h3>
+        <a href="https://onsclom.github.io/spurts/">Spurts</a>
+      </h3>
+      <p>
+        An anonymous message board. Backend built using Firebase, and frontend using vanilla JavaScript, HTML, and CSS.
+      </p>
+    </div>
+  
+    <div class="project">
+      <h3>
+        <a href="https://cegexe.itch.io/rotato-ship">Rotato Ship</a>
+      </h3>
+      <p>
+        A rotating platformer made in 48 hours which ranked as a finalist in the GMTK 2020
+        Game Jam. Made with Godot and GDScript.
+      </p>
+    </div>
   </div>
 
-  <div class="project">
-    <h3>
-      <a href="https://onsclom.github.io/blunder-chess/">Blunder Chess</a>
-    </h3>
-    <p>
-      Chess puzzles where you have to find the worst possible move. Puzzles
-      generated with Python. Front end made using vanilla JS, HTML, and CSS.
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>
-      <a href="https://projects-onsclom.vercel.app/">Svelte Projects</a>
-    </h3>
-    <p>
-      A collection of projects I made to learn Svelte. Includes a quote machine,
-      markdown previewer, drum machine, calculator, 25+5 timer, and a lifespan
-      calculator.
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>
-      <a href="https://onsclom.github.io/spurts/">Spurts</a>
-    </h3>
-    <p>
-      An anonymous message board. Backend built using Firebase, and frontend using vanilla JavaScript, HTML, and CSS.
-    </p>
-  </div>
-
-  <div class="project">
-    <h3>
-      <a href="https://cegexe.itch.io/rotato-ship">Rotato Ship</a>
-    </h3>
-    <p>
-      A rotating platformer made in 48 hours which ranked as a finalist in the GMTK 2020
-      Game Jam. Made with Godot and GDScript.
-    </p>
-  </div>
-
-  <p>Website built by me using Svelte. View the messy code <a href="">here</a>.</p>
+  <p>Website built by me using Svelte. View the messy code <a href="https://github.com/onsclom/personal-website">here</a>.</p>
 </main>
 
 <style>
